@@ -1,0 +1,40 @@
+.topdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+@media screen and (min-width: 556px) {
+  .topdiv {
+    background-color: lightseagreen;
+  }
+}
+@media screen and (min-width: 768px) {
+  .topdiv {
+    background-color: lightskyblue;
+  }
+}
+@media screen and (min-width: 992px) {
+  .topdiv {
+    background-color: greenyellow;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1197px) {
+  .topdiv {
+    background-color: lightcoral;
+  }
+}
+
+.imgStyle {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+}
+
+.ecahDiv {
+  border: 1px solid black;
+  width: 800px;
+  margin: 20px;
+}
